@@ -7,7 +7,7 @@ namespace ThingsparkExample
     {
         static void Main(string[] args)
         {
-            var client = new ThingsparkClient("hKqQALm22Hd79N6I");
+            var client = new ThingsparkClient("XDFfQDZORdmHzFgx");
 
             var v = client.SendDataToThingspark(out int r, "1", "2");
             Console.WriteLine(v);

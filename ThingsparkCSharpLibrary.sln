@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThingsparkLibrary", "ThingsparkLibrary\ThingsparkLibrary.csproj", "{DA0B3CCE-85F8-480E-84CC-6D29B9F8A2E4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thingspark_csharp_example", "ThingsparkExample\thingspark_csharp_example.csproj", "{1AC145D4-4383-4572-B793-ACD7CCFCF39B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThingsparkExample", "ThingsparkExample\ThingsparkExample.csproj", "{1AC145D4-4383-4572-B793-ACD7CCFCF39B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
