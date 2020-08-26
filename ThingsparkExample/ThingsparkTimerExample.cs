@@ -8,6 +8,7 @@ namespace ThingsparkExample
     {
 
         private static Timer aTimer;
+        private static readonly string API_KEY = "<API KEY>";
 
         static void Main2(string[] args)
         {
@@ -25,13 +26,13 @@ namespace ThingsparkExample
         {
             Console.WriteLine("The Elapsed event was raised at {0}", e.SignalTime);
 
-            var client = new ThingsparkClient("XDFfQDZORdmHzFgx");
+            var thingsparkClient = new ThingsparkClient(API_KEY);
 
             Random rand = new Random();
             int a = rand.Next(1, 10);
             int b = rand.Next(100, 200);
 
-            var v = client.SendDataToThingspark(out int r,  Convert.ToString(a), Convert.ToString(b));
+            var v = thingsparkClient.SendDataToThingspark(out int r,  Convert.ToString(a), Convert.ToString(b));
             Console.WriteLine(v);
             Console.WriteLine(r);
         }
